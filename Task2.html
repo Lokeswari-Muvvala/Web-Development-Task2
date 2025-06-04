@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+   <link rel="stylesheet" href="Task2.css">
+   
+</head>
+<body>
+   <div class="main-container">
+       <div class="contactform">
+        <form id="form" class="form">
+        <h1>CONTACT FORM</h1>
+       <h2>
+               <div class="form-name">
+                   <label for="name">Full Name:</label>
+                <input type="text" id="name" name="Fullname" placeholder="Enter your Name" size="50px" height="5px" width="10px" required>
+               </div>
+
+               <br>
+
+               <div class="form-email">
+                   <label for="Email">Email-Address:</label>
+                  <input type="email" id="Email" name="Email" placeholder="Enter your Email" size="50px" height="5px" width="10px" required>
+               </div>
+
+                   <br>
+
+                <div class="form-ph">
+                  <label for="phno">Phone number:</label>
+                  <input type="tel" id="phno" name="phno" placeholder="Enter your mobile number" size="50px" height="5px" width="10px" required>
+                </div>
+
+                   <br>
+
+               <div class="form-msz">
+                   <label for="msz">Message:</label>
+                <br>
+              <textarea id="msz" name="msz" placeholder="Enter your Message" required></textarea>
+               <div class="button-container">
+                <button type="submit" class="submit-btn">Submit</button>
+             </div>
+               </div> 
+       </h2> 
+      </form>
+       </div>
+
+      <div class="Responsive-layout">
+          <h1>Responsive Layout</h1>
+               <div class="Grid-container">
+                <div class="g1">
+                <div class="grid1">Block1</div>
+                <div class="grid2">Block2</div>
+                <div class="grid3">Block3</div>
+            </div>
+            
+         </div>
+      </div>
+</div>
+
+   <div class="ToDo-List">
+         <h1>ToDo-List</h1>
+         <div class="addtask">
+            <input type="text" placeholder="Add a new task" id="inputTask">
+            <button class="button" onclick="addTask()">Add Task</button>
+         </div>
+         <ul class="task-list" id="tasklist">
+          
+         </ul>
+      </div>
+
+ 
+       <script src="Task2.js"></script>
+</body>
+</html>
